@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+  background: #DB7F8E;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  background: #ECF4FF;
+  margin: 64px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 0px #604D53;
+  color: #604D53;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display: flex;  
+}
+
+.perfil-foto {
+  max-height: 160px;
+  left: 154px;
+  top: 79px;
+  border-radius: 460px;
+  box-shadow: 2px 2px 2px 0px #604D53;
+}
+
+.titulo {
+  margin-left: 30px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3{
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.tema button{
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background: #333439;
+  color: #ECF4FF
+ 
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: #CDCACC;
+  margin-top: 40px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.lista {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 48px;
+  
+}
+
+.lista p{
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+
+/* TEMA ESCURO */
+
+.dark {
+  background: #889696;
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  color: #604D53;
+}
+
+.dark .tema button {
+  background: #ECF4FF;
+  color: #333439;
+}
